@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+/* Snow white potential color*/
+body {
+  background-color: gray;
+  height: 100%;
+}
+.fullpage {
+  height: 100%px;
+  width: 1700px;
+  background-color: white;
+  margin-left: 100px;
+}
+nav {
+  font-size: 20px;
+  width: 1700px;
+  display: flex;
+  height: 75px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #23252b;
+}
+
+nav .links a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: white;
+  margin-right: 92px;
+  font-family: RobotoLight;
+}
+nav .logo span a {
+  color: white;
+  font-family: RobotoBold;
+  text-decoration: none;
+  margin-right: 50px;
+}
+nav .logo span a img {
+  height: 75px;
+}
+nav .links a.active-link {
+  color: teal;
+  font-family: RobotoBoldItalic;
+}
+.pfp {
+  width: 817px;
+  margin: 0 auto;
+  min-height: 100px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.pfp .own-prod-img {
+  width: 224px;
+
+  min-height: 50px;
+}
+
+.pfp .own-prod-img .circle {
+  width: 224px;
+  height: 224px;
+
+  border-radius: 112px;
+  overflow: hidden;
+}
+.pfp .own-prod-img .circle img {
+  height: 100%;
+}
+/* About me and headers*/
+.pfph1 {
+  margin-left: 750px;
+  text-align: left;
+  margin-bottom: 50px;
+  width: 400px;
+  text-align: justify;
+}
+.aboutmeh1 {
+  text-align: center;
+}
+.aboutme {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.aboutme section p {
+  width: 300px;
+}
+.aboutme section .twitch {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+}
+.aboutme section ol li {
+  width: 300px;
+}
+/*Pet text, about my pets*/
+.mypets {
+  display: flex;
+  margin: 0 auto;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.mypets .pets {
+  width: 200px;
+  height: 200px;
+}
+.dogs {
+  text-align: center;
+}
+.textfpets {
+  align-content: center;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+.textfpets p {
+  width: 300px;
+}
+/*My future goals*/
+
+/* Contact page*/
+.contact {
+  width: 300px;
+  margin-top: 200px;
+  margin-left: 100px;
+  height: 250px;
+  margin: 0 auto;
+}
+.contact h1 {
+  font-size: 50px;
+  text-decoration-line: underline;
+}
+.contact .noline a {
+  text-decoration: none;
+}
+/* Banner home page*/
+.test {
+  position: relative;
+  height: 225px;
+  width: 1700px;
+  background-image: url(../imgs/Banner.jpg);
+  margin-bottom: 100px;
+}
+.homeb {
+  left: 700px;
+  position: absolute;
+  color: white;
+}
+.homeb2 {
+  position: absolute;
+  top: 175px;
+  left: 700px;
+  color: white;
+}
+
+/* Home page info and skill rate*/
+.aboutport {
+  margin: 0 auto;
+  justify-content: center;
+
+  align-content: center;
+  margin-left: 710px;
+}
+.aboutport h1 {
+  text-align: center;
+}
+.aboutport h2 {
+  width: 300px;
+  margin-top: 50px;
+}
+.aboutport .abtpor2 {
+  margin-top: 20px;
+}
+.aboutport .abtpor2 ol {
+  width: 300px;
+  font-size: 20px;
+}
+.rated {
+  margin-top: 10px;
+  width: 950px;
+}
+.aph1 {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+/* Contact boxes*/
+.conf {
+  margin: 0 auto;
+  width: 350px;
+}
+.conf h1 {
+  font-size: 40px;
+}
+.conf form {
+  font-size: 28px;
+}
+.conf form .box {
+  width: 270px;
+  height: 40px;
+  font-size: 20px;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+.submit {
+  margin: 0 auto;
+  border: 2px solid black;
+  background-color: lightgray;
+  width: 200px;
+  height: 50px;
+  border-radius: 150px;
+  font-size: 28px;
+  font-weight: 8px;
+}
+.conf form hr {
+  height: 15px;
+  border: none;
+}
+.sep {
+  height: 50px;
+  border: none;
+}
+.phone {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.conh1 {
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/*Footer code*/
+.footer {
+  background-color: lightgray;
+  width: 1700;
+  height: 150px;
+  margin-top: 50px;
+}
+.footer .copyr {
+  margin: 0 auto;
+
+  justify-content: center;
+  align-content: center;
+}
+/* Banner 2 and Project page*/
+.banner2 {
+  background-image: url(../imgs/Banner-2.jpg);
+  height: 225px;
+  width: 1700px;
+}
+.banner2 h1 {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+.banner2 hr {
+  height: 50px;
+  border: none;
+}
+/*Secion names*/
+.headers {
+  margin-top: 150px;
+}
+.headers section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 25px;
+}
+.headers hr {
+  border: 3px solid;
+}
+/* Projects page editing*/
+.proj {
+  display: flex;
+  justify-content: space-between;
+}
+.proj hr {
+  border: 3px solid;
+}
+/*
+
+For Projects page for art projects
+*/
+.proj .art {
+  margin-left: 20px;
+}
+.proj .webs {
+  margin-right: 20px;
+}
+.proj .art section img {
+  width: 350px;
+  height: 350px;
+}
+.proj .art section p {
+  width: 350px;
+}
+/*--------------------------------*/
+.proj .webs section img {
+  width: 350px;
+  height: 350px;
+}
+.proj .webs section p {
+  width: 350px;
+}
